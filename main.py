@@ -15,3 +15,4 @@ app.register_blueprint(delete_bp)
 
 if __name__ == "__main__":
     app.run(debug=True, host='0.0.0.0')
+    print("Server is running on http://0.0.0.0:5000")
